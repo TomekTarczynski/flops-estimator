@@ -1,0 +1,35 @@
+cuda_cores_per_sm:
+  # Fermi architecture
+  "2.0": 32
+  "2.1": 48
+
+  # Kepler architecture
+  "3.0": 192
+  "3.2": 192
+  "3.5": 192
+  "3.7": 192
+
+  # Maxwell architecture
+  "5.0": 128
+  "5.2": 128
+  "5.3": 128
+
+  # Pascal architecture
+  "6.0": 64
+  "6.1": 128
+  "6.2": 128
+
+  # Volta and Turing architectures
+  "7.0": 64
+  "7.2": 64
+  "7.5": 64
+
+  # Ampere architecture
+  "8.0": 128
+  "8.6": 128
+
+  # Ada Lovelace architecture
+  "8.9": 128
+
+  # Hopper architecture
+  "9.0": 128
